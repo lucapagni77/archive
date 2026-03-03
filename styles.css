@@ -75,3 +75,21 @@ a:hover{ text-decoration:underline; }
   font-size:12px;
   margin-right:6px;
 }
+.prose{
+  padding:22px;
+  line-height: 1.75;
+  font-size: 16.5px;
+}
+.prose h1{ margin-top:0; font-size: 36px; }
+.prose h2{ margin-top:24px; }
+.prose p{ color: var(--text); }
+.prose hr{ border:none; border-top:1px solid var(--border); margin:18px 0; }
+.prose blockquote{
+  margin:18px 0;
+  padding:10px 14px;
+  border-left:3px solid rgba(138,180,255,.6);
+  background:rgba(138,180,255,.06);
+  border-radius:12px;
+  color:var(--muted);
+}
+.prose a{ text-decoration: underline; }
