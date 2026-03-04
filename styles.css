@@ -159,3 +159,20 @@ body {
   height: auto !important;
   overflow: visible !important;
 }
+/* Fix scrolling issues */
+
+html, body {
+  height: auto !important;
+  overflow-y: auto !important;
+}
+
+.container {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.prose {
+  max-height: none !important;
+  height: auto !important;
+  overflow: visible !important;
+}
