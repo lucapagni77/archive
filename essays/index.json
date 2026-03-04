@@ -1,0 +1,12 @@
+{
+  "essays": [
+    {
+      "slug": "gandhi-and-the-wicket",
+      "title": "Gandhi and the Wicket",
+      "date": "2026-03-03",
+      "tags": ["sport", "colonialism"],
+      "description": "Why did Gandhi see cricket as tied to British colonial culture?",
+      "file": "gandhi-and-the-wicket.md"
+    }
+  ]
+}
