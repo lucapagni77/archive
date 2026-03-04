@@ -138,3 +138,24 @@ a:hover{ text-decoration:underline; }
   border: 1px solid var(--border);
   background: #0e141d;
 }
+/* --- Force proper scrolling on essay pages --- */
+html, body {
+  height: auto !important;
+  min-height: 100%;
+  overflow-y: auto !important;
+}
+
+body {
+  display: block !important;   /* prevents flex-centering lock */
+}
+
+.container {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.card, .prose, #content {
+  max-height: none !important;
+  height: auto !important;
+  overflow: visible !important;
+}
