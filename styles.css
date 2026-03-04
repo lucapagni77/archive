@@ -77,3 +77,64 @@ a:hover{ text-decoration:underline; }
   border-radius:12px;
   color:var(--muted);
 }
+/* --- Essay typography polish --- */
+.prose{
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 26px;
+  line-height: 1.85;
+  font-size: 18px;
+}
+
+.prose h1{
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  margin: 0 0 10px;
+}
+
+.prose h2{
+  font-size: 24px;
+  margin-top: 34px;
+  margin-bottom: 10px;
+}
+
+.prose h3{
+  font-size: 19px;
+  margin-top: 26px;
+  margin-bottom: 8px;
+}
+
+.prose p{
+  margin: 0 0 1.2em;
+}
+
+.prose ul, .prose ol{
+  margin: 0 0 1.2em 1.2em;
+}
+
+.prose li{
+  margin: 0.35em 0;
+}
+
+.prose blockquote{
+  margin: 20px 0;
+  padding: 12px 16px;
+  border-left: 3px solid rgba(138,180,255,.7);
+  background: rgba(138,180,255,.06);
+  border-radius: 12px;
+  color: var(--muted);
+}
+
+.prose code{
+  background: rgba(255,255,255,.06);
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+
+.prose pre{
+  overflow: auto;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: #0e141d;
+}
